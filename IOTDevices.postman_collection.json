@@ -1,0 +1,169 @@
+{
+	"info": {
+		"_postman_id": "0b857858-1324-43ca-9974-765c602d594d",
+		"name": "IOTDevices",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n    {\t\r\n\"deviceName\": \"Device1\",\r\n\"deviceStatus\":  \"READY\",\r\n\"devicePin\":1234567\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.70.106:8082/IOTDevices/add",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"70",
+						"106"
+					],
+					"port": "8082",
+					"path": [
+						"IOTDevices",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n    {\t\r\n\"deviceName\": \"Device1\",\r\n\"deviceStatus\":  \"READY\",\r\n\"devicePin\":1234567\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.70.106:8082/IOTDevices/add",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"70",
+						"106"
+					],
+					"port": "8082",
+					"path": [
+						"IOTDevices",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deviceConfigurationService",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n    {\t\r\n\"deviceName\": \"Device1\",\r\n\"deviceStatus\":  \"READY\",\r\n\"devicePin\":1234567\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.70.106:8082/IOTDevices/add",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"70",
+						"106"
+					],
+					"port": "8082",
+					"path": [
+						"IOTDevices",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n    {\t\r\n\"deviceName\": \"Device1\",\r\n\"deviceStatus\":  \"READY\",\r\n\"devicePin\":1234567\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.70.106:8082/IOTDevices/add",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"70",
+						"106"
+					],
+					"port": "8082",
+					"path": [
+						"IOTDevices",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllOrdered",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n    {\t\r\n\"deviceName\": \"Device1\",\r\n\"deviceStatus\":  \"READY\",\r\n\"devicePin\":1234567\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.70.106:8082/IOTDevices/add",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"70",
+						"106"
+					],
+					"port": "8082",
+					"path": [
+						"IOTDevices",
+						"add"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
